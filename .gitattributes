@@ -1,0 +1,15 @@
+# Normalise line endings for text files
+* text=auto
+
+# Imagery and model artefacts are binary
+*.tif  binary
+*.tiff binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.pt   binary
+*.pth  binary
+
+# Keep lockfiles out of diffs and language stats
+pnpm-lock.yaml linguist-generated=true -diff
